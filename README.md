@@ -35,6 +35,8 @@ DNS.1 = AishCA.test
 `openssl x509 -req -in AishCA.test.csr -CA myCA.pem -CAkey myCA.key -CAcreateserial -out AishCA.test.crt -days 825 -sha256 -extfile AishCA.test.ext`
 
 We now have three files: `AishCA.test.key` (the private key), `AishCA.test.csr` (the certificate signing request, or csr file), and `AishCA.test.crt` (the signed certificate)
+<img width="1168" alt="image" src="https://user-images.githubusercontent.com/49971693/197408465-9e2752ee-8744-40d1-97c0-dcf9c3ec6493.png">
+
 
 References
 1. https://www.golinuxcloud.com/openssl-create-client-server-certificate/
