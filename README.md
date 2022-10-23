@@ -1,5 +1,6 @@
 # Security
 Notes on SSL/TLS
+
 Become a CA
 1. Generate the private Key `myCA.key`:  `openssl genrsa -des3 -out myCA.key 2048`
 2. Generate a Root Certificate `myCA.pem`:  `openssl req -x509 -new -nodes -key myCA.key -sha256 -days 1825 -out myCA.pem`
