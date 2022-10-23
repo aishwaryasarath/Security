@@ -36,3 +36,7 @@ DNS.1 = AishCA.test
 
 We now have three files: `AishCA.test.key` (the private key), `AishCA.test.csr` (the certificate signing request, or csr file), and `AishCA.test.crt` (the signed certificate)
 
+References
+1. https://www.golinuxcloud.com/openssl-create-client-server-certificate/
+2. https://deliciousbrains.com/ssl-certificate-authority-for-local-https-development/
+3. https://tomcat.apache.org/tomcat-8.5-doc/ssl-howto.html
